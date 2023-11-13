@@ -9,4 +9,4 @@ http.createServer(function (req, res) {
 		res.write('OK');
 		res.end();
 	}, ms);
-}).listen(proces.env.PORT || 4000);
+}).listen(process.env.PORT || 4000);
